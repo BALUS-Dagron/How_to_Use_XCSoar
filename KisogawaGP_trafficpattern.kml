@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Kisogawa GP.kmz</name>
+	<open>1</open>
+	<StyleMap id="inline5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline8">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_grn-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow-reverse.png</href>
+			</Icon>
+			<hotSpot x="54" y="42" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="inline9">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow-reverse.png</href>
+			</Icon>
+			<hotSpot x="54" y="42" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Kisogawa GP</name>
+		<open>1</open>
+		<Placemark>
+			<name>木曽川滑空場</name>
+			<LookAt>
+				<longitude>136.6789218006212</longitude>
+				<latitude>35.20562040250078</latitude>
+				<altitude>0</altitude>
+				<heading>6.358780860398822e-05</heading>
+				<tilt>25.47688714481534</tilt>
+				<range>179.3213909137336</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>136.6783333333333,35.20638888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>木曽川空域</name>
+			<styleUrl>#inline5</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							136.6752718625409,35.27255143053145,0 136.6059136165929,35.2423471337441,0 136.6146307352589,35.13627286455563,0 136.721237024247,35.15066913648058,0 136.6752718625409,35.27255143053145,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>木曽川宿舎</name>
+			<LookAt>
+				<longitude>136.675787884366</longitude>
+				<latitude>35.24722263598561</latitude>
+				<altitude>0</altitude>
+				<heading>-4.980827152301963</heading>
+				<tilt>30.00056967768619</tilt>
+				<range>126.7827599632986</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>136.6755555555555,35.24694444444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>文化センター</name>
+			<LookAt>
+				<longitude>136.6669248250501</longitude>
+				<latitude>35.22318606471365</latitude>
+				<altitude>0</altitude>
+				<heading>-5.000554602166783</heading>
+				<tilt>11.2371770197199</tilt>
+				<range>12139.86659201667</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>136.6388888888889,35.21680555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>福岡大橋（東詰）</name>
+			<LookAt>
+				<longitude>136.6479019650613</longitude>
+				<latitude>35.21567983635013</latitude>
+				<altitude>0</altitude>
+				<heading>-5.009000616169486</heading>
+				<tilt>16.74539168320102</tilt>
+				<range>6319.059704215546</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>136.6188888888889,35.2225,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>南濃大橋（西詰）</name>
+			<LookAt>
+				<longitude>136.6479019650613</longitude>
+				<latitude>35.21567983635013</latitude>
+				<altitude>0</altitude>
+				<heading>-5.009000616169486</heading>
+				<tilt>16.74539168320102</tilt>
+				<range>6319.059704215546</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>136.6702777777778,35.27194444444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G1</name>
+			<LookAt>
+				<longitude>136.6810462692159</longitude>
+				<latitude>35.19995364775931</latitude>
+				<altitude>0</altitude>
+				<heading>-66.28824759638209</heading>
+				<tilt>0</tilt>
+				<range>5211.390796606678</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>136.6786111111111,35.21055555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>G2</name>
+			<LookAt>
+				<longitude>136.6793980769714</longitude>
+				<latitude>35.20592862444735</latitude>
+				<altitude>0</altitude>
+				<heading>-66.28921618751718</heading>
+				<tilt>3.87734186740122</tilt>
+				<range>2537.002674870066</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>136.6894444444445,35.21055555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Document>
+			<name>Kisogawa GP Traffic Pattern</name>
+			<open>1</open>
+			<gx:CascadingStyle kml:id="__managed_style_229521E5E31F43F1FE6B">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_11E4CCA00E1F43F1FE6B">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_258A0FA1061F43F0D129">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/simple_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_1508D0E26D1F43F0D129">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/simple_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+			<StyleMap id="__managed_style_063C69062E1F43F1FE6B">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#failed1</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#failed0</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="failed">
+				<LineStyle>
+					<color>ff00ffff</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="failed2">
+				<LineStyle>
+					<color>ff00ffff</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="failed1">
+				<LineStyle>
+					<color>ff00ffff</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="__managed_style_0BFD715B691F43F0D129">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#failed</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#failed2</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="failed0">
+				<LineStyle>
+					<color>ff00ffff</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Placemark id="0EF00E664A1F43EFC205">
+				<name>R/W36</name>
+				<LookAt>
+					<longitude>136.6814258335654</longitude>
+					<latitude>35.19903055555555</latitude>
+					<altitude>-0.7528222971255316</altitude>
+					<heading>-0.755683326708235</heading>
+					<tilt>0.2620387383088712</tilt>
+					<range>3656.926397033386</range>
+					<altitudeMode>absolute</altitudeMode>
+					<gx:fovy>35</gx:fovy>
+				</LookAt>
+				<styleUrl>#__managed_style_0BFD715B691F43F0D129</styleUrl>
+				<LineString>
+					<extrude>1</extrude>
+					<altitudeMode>absolute</altitudeMode>
+					<coordinates>
+						136.6864319364242,35.21152767003894,250 136.6864656299065,35.20604040780194,200 136.6864110429289,35.20374377630564,170 136.6857336675847,35.19861544921342,150 136.6792448208161,35.19884386448564,120 136.6788452038343,35.2056787531445,4.999999999999999 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark id="051FC87E4C1F43F1FE6A">
+				<name>R/W18</name>
+				<LookAt>
+					<longitude>136.682025388663</longitude>
+					<latitude>35.21973333333334</latitude>
+					<altitude>0.4050363067437868</altitude>
+					<heading>-4.157624043923364</heading>
+					<tilt>4.816019556632866</tilt>
+					<range>2002.925995259138</range>
+					<altitudeMode>absolute</altitudeMode>
+					<gx:fovy>35</gx:fovy>
+				</LookAt>
+				<styleUrl>#__managed_style_063C69062E1F43F1FE6B</styleUrl>
+				<LineString>
+					<extrude>1</extrude>
+					<altitudeMode>absolute</altitudeMode>
+					<coordinates>
+						136.6861668337524,35.21172300583387,250 136.6855307959891,35.21725451213375,200 136.684721749518,35.2238873019624,180 136.6770669617683,35.22326992971092,150 136.6777863071605,35.21695897002074,4.999999999999999 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Document>
+	</Folder>
+</Document>
+</kml>
